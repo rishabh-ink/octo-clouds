@@ -4,3 +4,8 @@
   custom/_style.scss which is loaded after all plugin stylesheets.
 */
 
+/**
+ * A Sass/Compass version of Normalize.css.
+ * @see https://github.com/JohnAlbin/normalize.css-with-sass-or-compass
+ */
+@import "normalize";
