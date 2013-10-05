@@ -1,0 +1,9 @@
+@media only screen and (min-width : $mq-mobile-portrait) {
+  // Mobile-first; No styles here. See _all.scss.
+}
+
+@media only screen and (min-width : $mq-mobile-landscape) {
+  body {
+    background-color: yellow;
+  }
+}

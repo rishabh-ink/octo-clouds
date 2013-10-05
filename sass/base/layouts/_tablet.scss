@@ -1,0 +1,11 @@
+@media only screen and (min-width : $mq-tablet-portrait) {
+  body {
+    background-color: orange;
+  }
+}
+
+@media only screen and (min-width : $mq-tablet-landscape) {
+  body {
+    background-color: darkorange;
+  }
+}
