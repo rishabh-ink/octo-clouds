@@ -1,16 +1,25 @@
-@import "config";
-
 body {
   max-width: $page-width;
+
+  @media screen and (min-width: $mq-vga) {
+    max-width: 50%;
+  }
+
   margin: auto;
+
+  font: $base-font-size $base-font-family;
 
   background: $body-bg;
   color: $text-color;
 
-  @include text-shadow(black 1px 1px 0);
+  @include text-shadow(black 0 2px 4px);
 }
 
-a {
-  word-break: break-word;
-  color: $link-color;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
 }

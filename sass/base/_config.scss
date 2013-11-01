@@ -4,26 +4,33 @@ $page-width: 90% !default;
 // Courtesy http://bradfrostweb.com/blog/post/7-habits-of-highly-effective-media-queries/
 
 // Mobile devices - Portrait (320px wide)
-$mq-mobile-portrait: 20em;
+$mq-qvga: 320px;
 
 // Mobile devices - Landscape (480px wide)
-$mq-mobile-landscape: 30em;
+$mq-wqvga: 480px;
 
-// Tablet devices - Portrait (768px wide)
-$mq-tablet-portrait: 48em;
+// Tablet devices - Portrait (640px wide)
+$mq-vga: 640px;
 
-// Tablet devices - Landscape (900px wide)
-$mq-tablet-landscape: 56.25em;
+// Tablet devices - Landscape (800px wide)
+$mq-svga: 800px;
 
-// Netbook devices (1100px wide)
-$mq-netbook: 68.75em;
+// Netbook devices (1024px wide)
+$mq-xga: 1024px;
 
-// Desktop devices (1300px wide)
-$mq-desktop: 81.25em;
+// Desktop devices (1280px wide)
+$mq-wxga: 1280px;
 
+// Large desktops (1366px wide)
+$mq-hd: 1366px;
 
 // Theme
 $body-bg: #444;
 $text-color: white;
 
+$base-font-family: "Source Sans Pro", sans-serif;
+$headings-font-family: "Source Sans Pro", sans-serif;
+$base-font-size: 24px;
+
 $link-color: hsl(32, 100%, 60%);
+$link-hover-color: hsl(32, 100%, 70%);
