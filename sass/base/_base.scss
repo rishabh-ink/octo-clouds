@@ -1,1 +1,7 @@
 @import "config";
+
+html,
+body {
+  max-width: $page-width;
+  margin: auto;
+}
