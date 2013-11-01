@@ -1,7 +1,16 @@
 @import "config";
 
-html,
 body {
   max-width: $page-width;
   margin: auto;
+
+  background: $body-bg;
+  color: $text-color;
+
+  @include text-shadow(black 1px 1px 0);
+}
+
+a {
+  word-break: break-word;
+  color: $link-color;
 }
